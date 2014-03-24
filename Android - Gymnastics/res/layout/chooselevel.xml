@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    xmlns:android2="http://schemas.android.com/apk/res/android"
+    xmlns:android3="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chooseLevelRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android3:gravity="top" >
+
+    <RadioGroup
+        android3:id="@+id/chooseLevelRatio"
+        android3:layout_width="wrap_content"
+        android3:layout_height="wrap_content"
+        android3:layout_centerHorizontal="true"
+        android3:layout_centerVertical="true"
+        android3:orientation="horizontal" >
+
+        <RadioButton
+            android3:id="@+id/radio0"
+            style="@drawable/ic_launcher"
+            android3:layout_width="100dp"
+            android3:layout_height="85dp"
+            android3:button="@drawable/office_worker_radio"
+            android3:checked="true"
+            android3:tag="1" />
+
+        <RadioButton
+            android3:id="@+id/radio1"
+            android3:layout_width="100dp"
+            android3:layout_height="100dp"
+            android3:button="@drawable/running_radio"
+            android3:tag="2" />
+
+        <RadioButton
+            android3:id="@+id/radio2"
+            android3:layout_width="100dp"
+            android3:layout_height="145dp"
+            android3:button="@drawable/handstand_radio"
+            android3:tag="3" />
+
+    </RadioGroup>
+
+    <TextView
+        android3:id="@+id/TextView10"
+        android3:layout_width="wrap_content"
+        android3:layout_height="wrap_content"
+        android3:layout_alignParentBottom="true"
+        android3:layout_centerHorizontal="true"
+        android3:layout_marginBottom="20dp"
+        android3:gravity="center"
+        android3:text="@string/pull_left_challange_description"
+        android3:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

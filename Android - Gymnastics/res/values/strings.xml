@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gymnastikförbundet nord</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Starta din dag</string>
+    <string name="title_section2">Hur ser din dag ut?</string>
+    <string name="title_section3">Tränings nivå?</string>
+    <string name="title_section4">Upp å hoppa!</string>
+    <string name="pull_left">Dra till vänster för att fortsätta</string>
+    <string name="pull_left_challange_description">Välj nivå på din träning\nDra sedan till vänster för att börja din dag</string>
+    <string name="finish_msg">Du är nu färdig att börja din dag!\n\nDet är bara att stänga appen och varje halvtimme kommer ett kort träningspass att visas.</string>
+	<string name="fill_all_fields">Du måste fylla i din arbetstid innan du kan fortsätta</string>
+	<string name="to_line">-</string>
+	<string name="work_hours">Arbetstid:</string>
+	<string name="lunch">Lunch:</string>
+	<string name="abreak">Fika:</string>
+	<string name="meeting">Möte:</string>
+</resources>
